@@ -36,3 +36,11 @@ elif sys.argv[1] == '-dF':
     print(decryptFile(sys.argv[2],b'P0123as235a145df',sys.argv[3]))
 else:
     print('mauvais choix!')
+    
+    
+        
+''' pour compiler :
+	Example : python aes_folder.py -dF  fichier  1234
+	
+	Syntaxe : python aes_folder.py mode file key
+''' 
